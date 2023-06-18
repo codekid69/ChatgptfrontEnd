@@ -36,3 +36,36 @@
     transform: rotate(360deg);
   }
 }
+
+
+/* my css */
+li{
+  list-style: none;
+  border: 2px solid black;
+  width: 50%;
+  /* height: 30vh; */
+  margin: 10px auto;
+  background-color: lightgrey;
+  font-size: 1.2em;  
+  position: relative;
+}
+.title{
+  font-weight: bold;
+}
+
+.links{
+  /* position:absolute; */
+  /* top: 50%; */
+  /* margin:50px 0px; */
+  /* opacity: 0.8; */
+  /* background-color: rgb(161, 161, 161); */
+  /* border: 2px solid pink; */
+  height: 70%;
+  width: 100%;
+  font-size: 1rem;
+}
+@media only screen and (max-width: 500px) {
+ li{
+  width: 90%;
+ }
+}
